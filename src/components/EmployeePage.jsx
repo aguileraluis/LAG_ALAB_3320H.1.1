@@ -1,13 +1,15 @@
 import React from 'react';
-import './EmpployeePage.css'; 
-import Navbar from './Navbar';
-import Form from './Form';
+import './EmployeePage.css'; 
+import HeaderComponent from './HeaderComponent';
+import NavHeader from './NavHeader';
+import ListDirectory from './ListDirectory';
 
 const EmployeePage = () => {
   return (
     <div className="vertical-nav">
-      <Navbar />
-      <Form />
+      <NavHeader />
+      <HeaderComponent />
+      <ListDirectory />
     </div>
   )
 }

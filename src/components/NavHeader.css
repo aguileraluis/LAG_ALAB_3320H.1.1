@@ -1,0 +1,39 @@
+ul {
+  width: 100%; 
+
+  padding-top: 0; 
+  margin-top: 0; 
+}
+
+ul li {
+  width: 100%; 
+  list-style: none; 
+  border-left: 2px solid #f7f7f7f7; 
+  background-color: whitesmoke;
+  padding-top: 0; 
+}
+
+ul li h2 {
+  color: black; 
+  padding-top: 0; 
+  font-size:18px;
+}
+
+.link {
+  height: 50px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  text-decoration: none; 
+  cursor: default;
+}
+
+.link-top {
+  height: 50px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  text-decoration: none; 
+  cursor: default;
+  padding-top: 10%;
+}

@@ -5,12 +5,13 @@
 }
 
 body {
-  background-color: #e85cce;
   width: 100vw; 
   height: 100vh; 
   display: flex; 
   justify-content: center;
   align-items: center;
+  padding-right: 30%;
+  padding-bottom: 5%;
   font-family: "Playwrite FR Trad", cursive;
   letter-spacing: 0.5px; 
 }
@@ -26,8 +27,14 @@ p {
 }
 
 .contact-list-app {
-  width: 750px; 
-  margin: 0% auto; 
+  width: 100%;
+  height: 100%;  
+  margin: 0%; 
   border-radius: 3px; 
-  background-color: #f7f7f7;
+}
+
+ul .fa-solid {
+  color: #f7f7f7; 
+  margin-right: px;  
+  
 }

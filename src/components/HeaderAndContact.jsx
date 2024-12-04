@@ -1,13 +1,13 @@
 import React from 'react'; 
 import './HeaderAndContact.css'; 
 import EmployeePage from './EmployeePage';
-import ListDirectory from './ListDirectory';
+import EmployeePageCard from './EmployeePageCard';
 
 const HeaderAndContact = () => {
   return (
     <div className="navbar-and-list">
       <EmployeePage />
-      <ListDirectory />
+      <EmployeePageCard />
     </div>
   )
 }

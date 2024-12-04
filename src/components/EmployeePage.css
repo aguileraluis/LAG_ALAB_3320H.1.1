@@ -1,0 +1,11 @@
+.vertical-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 150%; 
+  width: 100%; 
+  background-color: white;
+  border-radius: 3px; 
+  margin-top: 0; 
+}
