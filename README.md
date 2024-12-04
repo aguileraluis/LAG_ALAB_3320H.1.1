@@ -1,8 +1,17 @@
-# React + Vite
+# React Page Layout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application is a user interface design using components. 
 
-Currently, two official plugins are available:
+# Starting the application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- To start the application: 
+  - npm install 
+  - npm run dev
+
+Currently, there are two main cards:
+
+- All Employees Directory
+- Individual Employee Card
+
+I created components with corresponding css files and then imported them into the main file named AppComponent.jsx
+
